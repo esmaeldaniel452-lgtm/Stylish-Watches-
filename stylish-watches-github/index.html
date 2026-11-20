@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="pt"><head>
+<meta data-k charset="utf-8">
+<meta data-k name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-k>Stylish Watches | Relógios com entrega em Luanda</title>
+<link data-k rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230d1b36'/%3E%3Ccircle cx='32' cy='32' r='21' fill='none' stroke='%23ece3d0' stroke-width='3'/%3E%3Cpath d='M32 18v15l9 6' fill='none' stroke='%23ece3d0' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link data-k rel="preconnect" href="https://fonts.googleapis.com">
+<link data-k rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link data-k rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500&display=swap">
+<style data-k>
+:root{--navy:#0d1b36;--navy2:#172a4b;--sand:#ece3d0;--sand2:#f6f0e3;--line:#cdbfa2;--brass:#a8844b;--ink:#13203a;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none!important}
+html{background:var(--navy);scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--sand);color:var(--ink);font:400 17px/1.6 Jost,system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navy);z-index:30}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+h1,h2,h3{font-family:"Bodoni Moda",Georgia,serif;font-weight:500;margin:0}
+.ab{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:#d9c08f;color:var(--navy);padding:9px max(20px,4vw);font-size:15px}
+.lk{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--navy);color:var(--sand);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px max(20px,4vw)}
+.logo{font:italic 600 27px/1 "Bodoni Moda",Georgia,serif;color:var(--sand);text-decoration:none}
+nav{display:flex;gap:30px}
+nav a{color:var(--sand);text-decoration:none;font-size:15px;opacity:.85}
+nav a:hover{opacity:1;text-decoration:underline;text-underline-offset:6px}
+.cartb{background:none;border:1px solid var(--brass);color:var(--sand);padding:9px 16px;border-radius:6px;font:500 15px Jost,sans-serif;cursor:pointer}
+.cartb b{font-weight:500;margin-left:6px;color:#d9c08f}
+.btn{display:inline-flex;justify-content:center;align-items:center;min-height:46px;padding:0 24px;border:1px solid currentColor;border-radius:6px;background:none;color:inherit;font:500 16px/1 Jost,system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.btn:hover{background-color:rgba(168,132,75,.2)}
+.btn.fill{background:var(--sand);color:var(--navy);border-color:var(--sand)}
+.btn.fill:hover{background:#fff}
+.btn.navy{background:var(--navy);color:var(--sand);border-color:var(--navy)}
+.btn.navy:hover{background:var(--navy2)}
+.blk{width:100%;margin-top:20px}
+.hero{position:relative;overflow:hidden;background:var(--navy);color:var(--sand);padding:clamp(56px,10vw,120px) max(20px,4vw) clamp(64px,10vw,128px)}
+.hero h1{font-size:clamp(40px,6.6vw,80px);line-height:1.04;max-width:15ch;margin-bottom:24px;position:relative}
+.hero p{max-width:44ch;font-size:19px;opacity:.9;margin:0 0 34px;position:relative}
+.hero .row{display:flex;gap:14px;flex-wrap:wrap;position:relative}
+.dw{position:absolute;right:max(-140px,-9vw);top:50%;translate:0 -50%;width:min(580px,72vw);aspect-ratio:1;pointer-events:none;opacity:.6}
+.dial{position:absolute;inset:0;border-radius:50%;background:repeating-conic-gradient(from -.7deg,var(--sand) 0 1.4deg,transparent 1.4deg 30deg),repeating-conic-gradient(from -.25deg,var(--brass) 0 .5deg,transparent .5deg 6deg);-webkit-mask:radial-gradient(circle,transparent 0 80%,#000 80.4% 90%,transparent 90.4%);mask:radial-gradient(circle,transparent 0 80%,#000 80.4% 90%,transparent 90.4%)}
+.hand{position:absolute;left:50%;bottom:50%;background:var(--sand);border-radius:3px;transform-origin:50% 100%}
+.hh{width:7px;height:21%;margin-left:-3.5px}
+.mh{width:4px;height:33%;margin-left:-2px}
+@media(max-width:720px){.dw{opacity:.3;right:-34%}nav{display:none}}
+.sec{padding:clamp(56px,8vw,96px) max(20px,4vw)}
+.sec h2{font-size:clamp(30px,4.2vw,48px);line-height:1.1;margin-bottom:14px}
+.lead{max-width:58ch;margin:0 0 40px;opacity:.88}
+.dark{background:var(--navy);color:var(--sand)}
+.light{background:var(--sand2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr));gap:28px}
+.card{display:flex;flex-direction:column;background:var(--sand2);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.pw{display:block;line-height:0}
+.ph{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--line)}
+.cb{display:flex;flex-direction:column;gap:6px;flex:1;padding:20px 20px 22px}
+.nm{font-size:25px;line-height:1.2}
+.pr{margin:0;font:500 21px "Bodoni Moda",Georgia,serif}
+.old{margin-left:12px;font-size:16px;opacity:.55}
+.acts{display:grid;gap:10px;margin-top:auto;padding-top:16px}
+.ad{display:flex;gap:20px;padding-top:6px;font-size:15px}
+.add{min-height:240px;border:1px dashed var(--navy);background:none;color:var(--navy);font:500 18px Jost,sans-serif;cursor:pointer}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:36px}
+.steps li{border-top:1px solid var(--brass);padding-top:20px}
+.n{display:block;font:italic 500 46px/1 "Bodoni Moda",Georgia,serif;color:var(--brass);margin-bottom:14px}
+.steps h3,.info h3{font-size:25px;margin-bottom:8px}
+.steps p,.info p{margin:0;opacity:.9}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:36px}
+.info div{border-top:1px solid var(--navy);padding-top:20px}
+.ct{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px}
+.fine{margin:56px 0 0;padding-top:20px;border-top:1px solid rgba(236,227,208,.25);font-size:15px;opacity:.75}
+.foot{padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))}
+.fab{position:fixed;right:max(16px,3vw);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:25;display:flex;align-items:center;gap:9px;min-height:48px;padding:0 20px;background:var(--sand);color:var(--navy);border:1px solid var(--navy);border-radius:999px;font:500 16px Jost,sans-serif;text-decoration:none;box-shadow:0 8px 22px rgba(13,27,54,.35)}
+dialog{border:0;padding:0;color:var(--ink);background:var(--sand2)}
+dialog::backdrop{background:rgba(13,27,54,.6)}
+.drawer{margin:0 0 0 auto;height:100%;max-height:none;border-radius:12px 0 0 12px;width:min(430px,100%);padding:24px 24px calc(24px + env(safe-area-inset-bottom,0px))}
+.dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.dh h2{font-size:28px}
+.ln{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:start;padding:16px 0;border-bottom:1px solid var(--line)}
+.ln img{width:64px;height:80px;object-fit:cover;border-radius:6px}
+.ln b{display:block;font:500 19px "Bodoni Moda",Georgia,serif}
+.qt{display:flex;align-items:center;gap:12px;margin-top:8px}
+.qt button{width:32px;height:32px;border-radius:6px;border:1px solid var(--navy);background:none;color:var(--navy);font:inherit;cursor:pointer}
+.tot{display:flex;justify-content:space-between;margin:20px 0 0;font-size:18px}
+.tot b{font:500 22px "Bodoni Moda",Georgia,serif}
+.nt{margin:14px 0 0;font-size:15px;opacity:.8}
+.modal{width:min(480px,calc(100% - 32px));max-height:calc(100% - 32px);margin:auto;padding:28px;border-radius:12px}
+.modal h2{font-size:28px;margin-bottom:18px}
+.modal label{display:flex;flex-direction:column;gap:6px;margin-bottom:14px;font-size:15px}
+.modal input{min-height:44px;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:#fff;font:inherit;color:var(--ink)}
+.modal input[type=file]{padding:9px 12px;height:auto}
+.prev{display:block;width:120px;aspect-ratio:4/5;object-fit:cover;margin-bottom:12px;border-radius:6px}
+.er{min-height:1.4em;margin:0 0 10px;color:#8a1f1f;font-size:15px}
+.row2{display:flex;gap:12px;flex-wrap:wrap}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,12px);background:var(--navy);color:var(--sand);padding:11px 20px;border-radius:6px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60;font-size:15px;max-width:calc(100% - 32px);text-align:center}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+</style>
+</head><body><div id="app"></div><div id="ov"></div>
+<script id="st" type="application/json">{"tel":"244946020272","items":[]}</script>
+<script id="js">
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])),kz=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,'.')+' Kz';
+const S=JSON.parse($('#st').textContent);
+let cart=[],adm=false,can=false,edit=null,pend='',tt;
+try{cart=JSON.parse(localStorage.getItem('sw')||'[]')}catch(e){}
+const wa=m=>'https://wa.me/'+S.tel+'?text='+encodeURIComponent(m);
+const hi=wa('Olá! Gostava de saber mais sobre os relógios da Stylish Watches.');
+const one=p=>wa('Olá! Tenho interesse neste relógio da Stylish Watches:\n\n'+p.name+'\nPreço: '+kz(p.price)+'\n\nA minha zona para a entrega é: ');
+const toast=m=>{const e=$('#ts');e.textContent=m;e.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>e.classList.remove('on'),2800)};
+
+$('#app').innerHTML=`
+<div class="ab" id="ab" hidden><span id="am"></span><button class="lk" data-a="view" id="av"></button></div>
+<header><a class="logo" href="#topo">Stylish Watches</a>
+<nav><a href="#relogios">Relógios</a><a href="#comprar">Como comprar</a><a href="#entrega">Entrega e garantia</a><a href="#contactos">Contactos</a></nav>
+<button class="cartb" data-a="cart">Carrinho<b id="cc">0</b></button></header>
+<main>
+<section class="hero" id="topo"><div class="dw" aria-hidden="true"><div class="dial"></div><i class="hand hh" id="hh"></i><i class="hand mh" id="mh"></i></div>
+<h1>Relógios com entrega em Luanda e arredores</h1>
+<p>Escolha o modelo, envie o pedido pelo WhatsApp e pague apenas quando receber o relógio.</p>
+<div class="row"><a class="btn fill" href="#relogios">Ver relógios</a><a class="btn" href="${hi}" target="_blank" rel="noopener">Falar no WhatsApp</a></div></section>
+<section class="sec" id="relogios"><h2>Relógios disponíveis</h2>
+<p class="lead">Toque na foto ou em Encomendar para pedir um relógio. Se quiser mais de um, junte-os no carrinho e envie tudo de uma vez.</p>
+<div class="grid" id="grid"></div></section>
+<section class="sec dark" id="comprar"><h2>Como comprar</h2><p class="lead">Três passos, sem sair de casa.</p>
+<ol class="steps">
+<li><span class="n">1</span><h3>Escolha o relógio</h3><p>Toque em Encomendar ou junte vários no carrinho. O pedido abre no nosso WhatsApp já escrito, só falta enviar.</p></li>
+<li><span class="n">2</span><h3>Confirmamos consigo</h3><p>Respondemos, confirmamos o modelo e combinamos o local e a hora da entrega.</p></li>
+<li><span class="n">3</span><h3>Receba e pague</h3><p>O relógio chega até si. Confira e só depois pague, da forma que preferir.</p></li></ol></section>
+<section class="sec light" id="entrega"><h2>Entrega, pagamento e garantia</h2><p class="lead">O que precisa de saber antes de pedir.</p>
+<div class="info">
+<div><h3>Entrega</h3><p>Entregamos em toda a Luanda e arredores. A taxa de entrega é de 2.000 Kz.</p></div>
+<div><h3>Pagamento</h3><p>Paga apenas quando receber o relógio. Aceitamos Express, transferência BCI ou BAI e dinheiro.</p></div>
+<div><h3>Garantia e troca</h3><p>Todos os relógios têm 1 semana de garantia. A troca é possível e, nesse caso, a taxa de entrega fica a cargo do cliente.</p></div></div></section>
+<section class="sec dark foot" id="contactos"><h2>Fale connosco</h2><p class="lead">Respondemos pelo WhatsApp. Os novos modelos aparecem primeiro no Instagram e no TikTok.</p>
+<div class="ct"><a class="btn fill" href="${hi}" target="_blank" rel="noopener">WhatsApp 946 020 272</a><a class="btn" href="https://www.instagram.com/camela7807" target="_blank" rel="noopener">Instagram @camela7807</a><a class="btn" href="https://www.tiktok.com/@esmaeldaniel" target="_blank" rel="noopener">TikTok @esmaeldaniel</a></div>
+<p class="fine">Stylish Watches, Luanda, Angola.</p></section></main>
+<a class="fab" href="${hi}" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.7 7L4 20.5l1.6-4.8A8 8 0 1 1 21 12z"/></svg>WhatsApp</a>`;
+
+$('#ov').innerHTML=`
+<dialog id="cd" class="drawer" aria-label="Carrinho"><div class="dh"><h2>O seu carrinho</h2><button class="lk" data-a="close">Fechar</button></div><div id="cl"></div></dialog>
+<dialog id="ed" class="modal"><h2 id="et"></h2>
+<label>Nome do relógio<input id="fn" maxlength="60" autocomplete="off"></label>
+<label>Preço em Kz<input id="fp" inputmode="numeric" placeholder="Exemplo: 45000" autocomplete="off"></label>
+<label>Preço antigo em Kz (opcional, aparece riscado)<input id="fo" inputmode="numeric" autocomplete="off"></label>
+<label>Foto do relógio<input id="ff" type="file" accept="image/*"></label>
+<img class="prev" id="fi" alt="Pré-visualização da foto" hidden>
+<p class="er" id="fe" role="alert"></p>
+<div class="row2"><button class="btn navy" data-a="save">Guardar</button><button class="btn" data-a="close">Cancelar</button></div></dialog>
+<div class="toast" id="ts" role="status" aria-live="polite"></div>`;
+
+function rGrid(){
+ $('#grid').innerHTML=S.items.map(p=>`<article class="card"><a class="pw" href="${one(p)}" target="_blank" rel="noopener" aria-label="Encomendar ${esc(p.name)}"><img class="ph" src="${p.img}" alt="${esc(p.name)}" loading="lazy"></a><div class="cb"><h3 class="nm">${esc(p.name)}</h3><p class="pr">${kz(p.price)}${p.old?`<s class="old">${kz(p.old)}</s>`:''}</p><div class="acts"><a class="btn navy" href="${one(p)}" target="_blank" rel="noopener">Encomendar</a><button class="btn" data-a="add" data-id="${p.id}">Adicionar ao carrinho</button>${adm?`<div class="ad"><button class="lk" data-a="edit" data-id="${p.id}">Editar</button><button class="lk" data-a="del" data-id="${p.id}">Remover</button></div>`:''}</div></div></article>`).join('')+(adm?'<button class="card add" data-a="new">Adicionar relógio</button>':'')||'<p class="lead">Os relógios serão publicados em breve. Fale connosco pelo WhatsApp.</p>';
+}
+function rAdm(){$('#ab').hidden=!can;$('#am').textContent=adm?'Modo administração: pode adicionar, editar e remover relógios.':'A ver o site como um cliente.';$('#av').textContent=adm?'Ver como cliente':'Voltar à administração';rGrid()}
+function rCart(){
+ cart=cart.filter(c=>S.items.some(p=>p.id===c.id));
+ const r=cart.map(c=>({p:S.items.find(p=>p.id===c.id),q:c.q})),n=r.reduce((a,x)=>a+x.q,0),t=r.reduce((a,x)=>a+x.q*x.p.price,0);
+ $('#cc').textContent=n;
+ try{localStorage.setItem('sw',JSON.stringify(cart))}catch(e){}
+ const msg='Olá! Quero fazer este pedido na Stylish Watches:\n\n'+r.map(x=>x.q+' x '+x.p.name+' ('+kz(x.p.price)+')').join('\n')+'\n\nTotal dos relógios: '+kz(t)+'\n\nA minha zona para a entrega é: ';
+ $('#cl').innerHTML=r.length?r.map(x=>`<div class="ln"><img src="${x.p.img}" alt=""><div><b>${esc(x.p.name)}</b><span>${kz(x.p.price)}</span><div class="qt"><button data-a="minus" data-id="${x.p.id}" aria-label="Menos um">−</button><span>${x.q}</span><button data-a="plus" data-id="${x.p.id}" aria-label="Mais um">+</button></div></div><button class="lk" data-a="rm" data-id="${x.p.id}">Retirar</button></div>`).join('')+`<p class="tot">Total dos relógios<b>${kz(t)}</b></p><a class="btn navy blk" href="${wa(msg)}" target="_blank" rel="noopener">Enviar pedido no WhatsApp</a><p class="nt">Entrega em Luanda e arredores: 2.000 Kz. O pagamento é feito quando receber.</p>`:'<p class="nt">O carrinho está vazio. Escolha um relógio para começar.</p>';
+}
+const shrink=f=>new Promise((ok,no)=>{const r=new FileReader;r.onload=()=>{const i=new Image;i.onload=()=>{const k=Math.min(1,900/Math.max(i.width,i.height)),c=document.createElement('canvas');c.width=Math.round(i.width*k);c.height=Math.round(i.height*k);c.getContext('2d').drawImage(i,0,0,c.width,c.height);ok(c.toDataURL('image/jpeg',.82))};i.onerror=no;i.src=r.result};r.onerror=no;r.readAsDataURL(f)});
+function openEd(id){
+ edit=id||null;const p=S.items.find(p=>p.id===id)||{};pend=p.img||'';
+ $('#fn').value=p.name||'';$('#fp').value=p.price||'';$('#fo').value=p.old||'';$('#ff').value='';
+ $('#fi').src=pend;$('#fi').hidden=!pend;$('#fe').textContent='';$('#et').textContent=id?'Editar relógio':'Adicionar relógio';$('#ed').showModal();
+}
+async function persist(ok){
+ rGrid();rCart();toast('A guardar as alterações...');
+ try{
+  const a=await claude.use('artifact');if(!a)throw 0;
+  const h=[...document.head.querySelectorAll('[data-k]')].map(e=>e.outerHTML).join('');
+  await a.publish('<!doctype html>\n<html lang="pt"><head>'+h+'</head><body><div id="app"></div><div id="ov"></div>\n<script id="st" type="application/json">'+JSON.stringify(S).replace(/</g,'\\u003c')+'<\/script>\n<script id="js">'+$('#js').textContent+'<\/script></body></html>');
+  toast(ok);
+ }catch(e){toast('Não foi possível guardar. Tente outra vez.')}
+}
+const A={
+ add(id){const c=cart.find(c=>c.id===id);c?c.q++:cart.push({id,q:1});rCart();toast('Adicionado ao carrinho')},
+ plus(id){cart.find(c=>c.id===id).q++;rCart()},
+ minus(id){const c=cart.find(c=>c.id===id);if(--c.q<1)cart=cart.filter(x=>x!==c);rCart()},
+ rm(id){cart=cart.filter(c=>c.id!==id);rCart()},
+ cart(){$('#cd').showModal()},
+ close(_,t){t.closest('dialog').close()},
+ view(){adm=!adm;rAdm()},
+ new(){openEd()},
+ edit(id){openEd(id)},
+ del(id,t){
+  if(!t.dataset.s){t.dataset.s=1;t.textContent='Confirmar remoção';setTimeout(()=>{delete t.dataset.s;t.textContent='Remover'},3500);return}
+  S.items=S.items.filter(p=>p.id!==id);persist('Relógio removido');
+ },
+ async save(){
+  const n=$('#fn').value.trim(),pr=parseInt($('#fp').value.replace(/\D/g,''),10),o=parseInt($('#fo').value.replace(/\D/g,''),10)||0,e=$('#fe');
+  if(!n||!(pr>0)||!pend){e.textContent='Preencha o nome, o preço e escolha a foto.';return}
+  if(o&&o<=pr){e.textContent='O preço antigo tem de ser maior do que o preço atual.';return}
+  const it={id:edit||'p'+Date.now().toString(36),name:n,price:pr,old:o,img:pend},i=S.items.findIndex(p=>p.id===edit);
+  i<0?S.items.push(it):S.items[i]=it;
+  $('#ed').close();await persist('Relógio guardado');
+ }
+};
+document.addEventListener('click',e=>{const t=e.target.closest('[data-a]');if(t&&A[t.dataset.a])A[t.dataset.a](t.dataset.id,t)});
+$('#cd').addEventListener('click',e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
+$('#ff').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{pend=await shrink(f);$('#fi').src=pend;$('#fi').hidden=false;$('#fe').textContent=''}catch(x){$('#fe').textContent='Não foi possível ler esta foto. Escolha outro ficheiro.'}});
+function tick(){const d=new Date(),m=d.getMinutes();$('#mh').style.transform='rotate('+m*6+'deg)';$('#hh').style.transform='rotate('+((d.getHours()%12)*30+m/2)+'deg)'}
+tick();setInterval(tick,30000);
+$('#grid').innerHTML='<p class="lead">A carregar os relógios...</p>';
+fetch('produtos.txt',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
+ S.items=t.split(/\r?\n/).map(l=>l.trim()).filter(l=>l&&l[0]!=='#').map(l=>{const c=l.split('|').map(x=>x.trim());return{id:(c[0]||'').replace(/\W/g,'_'),name:c[1]||'',price:parseInt((c[2]||'').replace(/\D/g,''),10)||0,old:parseInt((c[3]||'').replace(/\D/g,''),10)||0,img:'fotos/'+encodeURIComponent(c[0]||'')}}).filter(p=>p.name&&p.price);
+ rGrid();rCart();
+}).catch(()=>{$('#grid').innerHTML='<p class="lead">Não foi possível carregar os relógios. Atualize a página ou fale connosco pelo WhatsApp.</p>'});
+(async()=>{try{const u=await claude.use('user');if(u&&(u.isOwner()||u.canEdit())){can=true;adm=true;rAdm()}}catch(e){}})();
+</script></body></html>
