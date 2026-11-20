@@ -1,0 +1,6 @@
+# Uma linha por relógio, neste formato:
+# nome da foto | Nome do relógio | preço | preço antigo (opcional)
+# O nome da foto tem de ser igual ao do ficheiro na pasta fotos.
+# Linhas que começam com # são ignoradas.
+hublot.jpg | Hublot | 45000
+montblanc.jpg | Montblanc | 25000
