@@ -4,5 +4,5 @@
 # Linhas que começam com # são ignoradas.
 hublot.jpg | Hublot | 45000
 montblanc.jpg | Montblanc | 25000
-mountblanc-azul.jpg | Mountblanc azul | 25000 | 36000
+mountblanc-azul.jpg | Mountblanc | 25000 | 36000
 
