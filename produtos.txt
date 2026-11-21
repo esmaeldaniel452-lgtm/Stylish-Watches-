@@ -8,5 +8,6 @@ mountblanc-azul.jpeg | Mountblanc azul | 25000 | 36000
 mountblanc-dourado-preto.jpeg | Mountblanc dourado e preto | 25000 
 mountblanc-preto.jpeg | Mountblanc preto | 25000
 mountblanc-castanho.jpeg | Mountblanc Castanho | 25000
+mountblanc-castanho-dourado.jpeg | Mountblanc Castanho e dourado | 25000
 
 
