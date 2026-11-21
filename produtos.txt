@@ -5,6 +5,7 @@
 hublot.jpg | Hublot | 45000
 montblanc.jpg | Montblanc | 25000
 mountblanc-azul.jpeg | Mountblanc azul | 25000 | 36000
-mountblanc-dourado-preto.jpeg | Mountblanc dourado e preto | 25000
+mountblanc-dourado-preto.jpeg | Mountblanc dourado e preto | 25000 
+mountblanc-preto.jpeg | Mountblanc preto | 25000
 
 
